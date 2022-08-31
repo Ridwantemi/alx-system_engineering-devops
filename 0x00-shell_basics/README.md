@@ -12,3 +12,4 @@ cd - to move from current directory to previous one
 ls -la . .. /boot to show hidden files even ones starting with period and in long format from working directory through parent directory to /boot
 file /tmp/iamafile to show the type of file named iamafile in tmp directory
 ln -s /bin/ls __ls__ Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+cp -u *.html .. Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
