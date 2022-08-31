@@ -9,4 +9,4 @@ mv //tmp/betty //tmp/my_first_directory to move file betty in tmp to my_first di
 rm //tmp/my_first_directory/betty to remove file betty from my_first_directory in tmp directory
 rmdir //tmp/my_first_directory to remove my_first_directory from tmp directory
 cd - to move from current directory to previous one
-ls -aR //boot to show hidden files even ones starting with period and in long format
+ls -la . .. /boot to show hidden files even ones starting with period and in long format from working directory through parent directory to /boot
